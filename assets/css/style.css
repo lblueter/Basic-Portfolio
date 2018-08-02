@@ -16,6 +16,11 @@ body {
     border-style: solid;
     position: relative;
 }
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
 header {
     background-color: #4aaaa5;
     font-size: 28px;
@@ -28,7 +33,7 @@ header {
     bottom: 0px;
     color: #ffffff;
 }
-a {
+li a {
     float: right;
     padding: 10px;
 }
@@ -44,6 +49,12 @@ a {
     border-color: #cccccc;
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow: auto;
+}
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 h1 {
     color: #4aaaa5;
@@ -54,7 +65,15 @@ h1 {
 footer {
     clear: both;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #666666;
     color: #ffffff;
+    font-size: small;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: auto;
 }

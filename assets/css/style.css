@@ -1,8 +1,5 @@
 
 body {
-    width: 960px;
-    align-self: center;
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-image: url("../images/qbkls/qbkls/qbkls.png")
@@ -15,6 +12,8 @@ body {
     padding: 20px;
     border-style: solid;
     position: relative;
+    width: 100%;
+    margin-bottom: 20px;
 }
 ul {
     list-style-type: none;
@@ -25,13 +24,16 @@ header {
     background-color: #4aaaa5;
     font-size: 28px;
     width: 20%;
-    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 10px;
     position: absolute;
     bottom: 0px;
+    left: 170px;
     color: #ffffff;
+}
+.moveleftplease {
+    margin-right: 190px;
 }
 li a {
     float: right;
@@ -50,11 +52,16 @@ li a {
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: auto;
+    width: 960px;
+    align-self: center;
+    margin: auto;
 }
 img {
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
 }
 h1 {
     color: #4aaaa5;
@@ -65,7 +72,7 @@ h1 {
 footer {
     clear: both;
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px 0px 10px;
     background-color: #666666;
     color: #ffffff;
     font-size: small;

@@ -6,7 +6,7 @@ body {
 }
 .top {
     background-color: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     border: #ffffff;
     border-bottom: #cccccc;
     padding: 20px;
@@ -14,6 +14,8 @@ body {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 ul {
     list-style-type: none;
@@ -29,7 +31,7 @@ header {
     padding: 10px;
     position: absolute;
     bottom: 0px;
-    left: 170px;
+    left: 180px;
     color: #ffffff;
 }
 .moveleftplease {
@@ -38,6 +40,17 @@ header {
 li a {
     float: right;
     padding: 10px;
+}
+a {
+    color: rgb(129, 87, 87);
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
+    background-color: #cccccc;
+}
+a:active {
+    background-color: #4aaaa5;
 }
 .port {
     border-left-style: solid;
@@ -72,13 +85,16 @@ h1 {
     border-bottom-color: #cccccc;
     padding-bottom: 20px;;
 }
+form {
+    clear: both;
+}
 footer {
     clear: both;
     text-align: center;
-    padding: 20px 10px 0px 10px;
+    padding: 20px 0px 0px 0px;
     background-color: #666666;
     color: #ffffff;
-    font-size: small;
+    font-size: 10px;
     border-top-style: solid;
     border-color: #4aaaa5;
     position: fixed;
@@ -86,4 +102,21 @@ footer {
     left: 0px;
     width: 100%;
     overflow: auto;
+}
+.name , .email , .message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+button {
+    background-color: #4aaaa5;
+    padding: 5px 15px 5px 15px;
+    border-style: none;
+    color: #ffffff;
 }

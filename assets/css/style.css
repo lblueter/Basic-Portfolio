@@ -120,3 +120,18 @@ button {
     border-style: none;
     color: #ffffff;
 }
+section {
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.thing {
+    position: absolute;
+    z-index: 2;
+    align-self: center;
+    bottom: 10px;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 150px;
+    color: #ffffff;
+}
